@@ -1,5 +1,6 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { ColorSchemeScript } from "@mantine/core";
+import { HeaderFixedBar } from "../components/HeaderFixedBar";
 
 export default function Document() {
   return (
@@ -7,7 +8,7 @@ export default function Document() {
       <Head>
         <ColorSchemeScript />
       </Head>
-      <body>
+      <body> 
         <Main />
         <NextScript />
       </body>

@@ -1,0 +1,35 @@
+body{
+    background-color: #111a2e;
+}
+
+#root{
+    background-color: #111a2e;
+}
+
+.link-etherscan {
+    height: 21px;
+    left: 4rem;
+    position: relative;
+    top: 15px;
+    width: 100px;
+  }
+
+  .nav {
+    height: 54px;
+    width: 100%;
+  }
+
+  .header2{
+    background-color: #111a2e;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #273343;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    box-shadow: 0px 5px 10px #97a4af0d; 
+    left: 0;
+    position: fixed; 
+    width: 100%;
+    z-index: 999;
+  }

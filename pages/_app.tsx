@@ -2,10 +2,13 @@ import "@mantine/core/styles.css";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
 import { theme } from "../theme";
+import classes from "../styles/global.css"
+import { HeaderFixedBar } from "../components/HeaderFixedBar";
+import { HeaderNavBar } from "../components/HeaderMegamenuBar";
 
 export default function App({ Component, pageProps }: any) {
   return (
-    <MantineProvider theme={theme}>
+    <MantineProvider theme={theme} defaultColorScheme="dark">
       <Head>
         <title>Mantine Template</title>
         <meta
@@ -14,7 +17,9 @@ export default function App({ Component, pageProps }: any) {
         />
         <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
-      <Component {...pageProps} />
+      <HeaderFixedBar /> 
+      <HeaderNavBar />
+      <Component {...pageProps} className={classes.body}/>
     </MantineProvider>
   );
 }
