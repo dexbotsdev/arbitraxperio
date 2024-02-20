@@ -1,18 +1,17 @@
-.header {
-    height: rem(56px);
-    padding: 0.5rem;
-    border-bottom: rem(0.2px) solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-gray-7));
-    position: relative; 
+.barheader { 
+    height: rem(60px);  
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-blue-6));
+
   }
   
-  .inner {
+  .barinner {
     height: rem(56px);
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .link {
+  .barlink {
     display: block;
     line-height: 1;
     padding: rem(8px) rem(12px);

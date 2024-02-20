@@ -1,12 +1,12 @@
 import { Button, Container, Group } from "@mantine/core";
-import PageComponent from "../components/PageComponent";
+import PageComponent from "./PageComponent";
+import { HeroText } from "../components/Hero/HeroText";
+import { HeroImageBackground } from "../components/HeroImageBackground";
 
 export default function IndexPage() {
   return (
-    <PageComponent>
-      <Group justify="center">
-        <Button size="xl">Welcome to Index!</Button>
-      </Group>
-    </PageComponent>
+    <>
+         <HeroImageBackground/> 
+    </>
   );
 }
