@@ -2,7 +2,7 @@ import "@mantine/core/styles.css";
 import Head from "next/head";
 import { Container, MantineProvider } from "@mantine/core";
 import { theme } from "../theme";
-import * as classes from "./global.css"
+import   "./global.css"
 import { HeaderFixedBar } from "../components/HeaderFixedBar";
 import { HeaderNavBar } from "../components/HeaderMegamenuBar";
 import { AdBar } from "../components/AdBar";
@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: any) {
       <HeaderFixedBar /> 
       <HeaderNavBar />  
       <Container  fluid mt={'4rem'} p={0}>
-        <Component {...pageProps} className={classes.body}/>
+        <Component {...pageProps} className={"body"}/>
       </Container>
     </MantineProvider>
   );
