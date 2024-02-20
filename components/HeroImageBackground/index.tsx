@@ -24,7 +24,7 @@ export function HeroImageBackground() {
         </Container>
 
         <div className={classes.controls}>
-          <Button className={classes.control} variant="white" size="lg" component='a' href='/arbitrage'>
+          <Button className={classes.control} variant="white" size="lg" component='a' href='/arbitrades'>
             Get started
           </Button> 
         </div>

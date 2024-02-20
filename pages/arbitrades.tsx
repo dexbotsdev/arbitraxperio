@@ -89,7 +89,7 @@ const ArbData: React.FC = () => {
     };
     const [refreshInterval, setRefreshInterval] = useState(11000);
     const fetchMetrics = () => {
-        axios.get('http://localhost:8080/arbdata').then((data) => {
+        axios.get('https://arbdata-production.up.railway.app/arbdata').then((data) => {
             console.log(data.data);
 
             setData(data.data);
